@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Space+Mono&family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@font-face {
+    font-family: 'RUNES';
+    src: url('assets/fonts/R.U.N.E.S..ttf');
+}
+@font-face {
+    font-family: 'ALIEN';
+    src: url('assets/fonts/Alien-Encounters-Solid-Regular.ttf');
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html,
+body
+{
+    height: 100vh;
+
+    font-family: ' Space Mono', monospace;
+    color: #010004;
+    background-color: black;
+}
+
+h1 {
+
+    font-family: 'ALIEN';
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+h1 span{
+    font-family: ' Space Mono', monospace;
+    letter-spacing: 0;
+}
+
+p {
+    font-family: ' Space Mono', monospace;
+    font-size: 1rem;
+    padding: 1rem 3rem 0rem 3rem;
+    text-transform: uppercase;
+    max-width: 25rem;
+    margin: 0;
+    float: right;
+}
+
+i {
+    color:#720606a2;
+    letter-spacing: 30px;
+    transition: all 250ms ease-in-out;
+}
+
+i:hover {
+    font-size: 20px;
+    color:#a30808e3;
+}
+
+img {
+    opacity: 0.75;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: 0;
+    height:100vh;
+    transform: all 250ms ease-in-out;
+}
+
+.ui { 
+    z-index: 1;
+    height: 100vh;
+}
+
+.welcome, .nav, .info {
+    z-index: 3;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    z-index: 3;
+    position: relative;
+    top:45.5%;
+    left: -15%;
+    opacity:1;
+    cursor: default;
+    transform: rotate(-90deg);
+}
+
+.logo span{
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    font-family: 'RUNES';
+    font-size: 20rem;
+    text-decoration: none;
+    color: rgba(39, 39, 39, 0.781);
+    transition: all 250ms ease-in-out;
+}
+
+.logo span:hover{
+    color:#ffffff5e;
+    text-shadow: 2px 2px 15px #cbfd7b;
+    font-size: 20.5rem;
+}
+
+.logo span:before {
+    content: '';
+    position:absolute;
+    width: 100%;
+    border-bottom: 1px solid rgb(2, 78, 31);
+    transform: scaleX(1);
+}
+
+.label {
+    z-index: 4;
+    font-family: ' Space Mono', monospace;
+    position: relative;
+    font-size: 1rem;
+    color: white;
+    top: 23%;
+    left: 3.5%;
+    opacity:1;
+    cursor: default;
+}
+
+.label span {
+    letter-spacing: 2px;
+    font-family: 'ALIEN'; 
+}
+
+.nav-link {
+    width:200px;
+    top: -10%;
+    left: 87.55%;
+    position: relative;
+    z-index: 4;
+    opacity: 1;
+}
+
+.nav-link span {
+    font-family: 'ALIEN';
+    letter-spacing: 2px;
+  
+}
+
+.nav-link a {
+    font-family: ' Space Mono', monospace;
+    color: white;
+    text-decoration: none;
+}
+
+.name {
+    top:30%;
+    left: 24.55%;
+    position: relative;
+    z-index: 3;
+    opacity: 1;
+    transform: rotate(90deg);
+}
+
+.name span{
+    position: relative;
+    font-family: 'RUNES';
+    font-size: 7rem;
+    color: rgba(39, 39, 39, 0.781);
+    transition: all 250ms ease-in-out;
+    white-space: nowrap;
+}
+
+.name span:hover {
+    color:#ffffff5e;
+    text-shadow: 2px 2px 15px #cbfd7b;
+    cursor: default;
+    font-size: 7.5rem;
+}
+
+.name span:before {
+    content: '';
+    position:absolute;
+    width: 100%;
+    border-bottom: 1px solid rgb(2, 78, 31);
+    transform: scaleX(1)
+}
+
+.about-card{
+    background-color:#27272723;
+    margin: 0 auto;
+    position: relative;
+    height:75vh;
+    width: 75vw;
+    z-index: 3;
+    color: white;
+    display: block;
+    justify-content: center;
+    top: -50vh;
+}
+
+.about-card h1{
+}
+
+.about-card span {
+    font-family: ' Space Mono', monospace;
+}
+
+.about-links {
+    display: flex;
+    justify-content:space-between;
+}
+
+.about-links a{
+    /* padding: 10px 5px 0px 5px; */
+    /* width: 100%; */
+    font-family: 'ALIEN';
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing:2px;
+}
+
+.about-links span{
+    letter-spacing: 0;
+    font-family: ' Space Mono', monospace;
+}
+
+.about-links a:hover{
+    color: #cbfd7b;
+    text-decoration: none;
+}
+
+.about-bg {
+    background-image: url('../static/druydwell\(2\).png');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-color: #0c0c0c00;
+    top:75.33vh;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+}
+
+.about-img {
+    padding: 1rem 0rem 1rem 1rem;
+    float:none;
+    opacity: 0.6;
+}
+
+.starter-p::before {
+    content:'';
+    position:absolute;
+    width: 31%;
+    border-bottom: 1px solid rgb(2, 78, 31);
+    transform: scaleX(1)
+}
+
+.description {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.description-text {
+    max-width: 30rem;
+}
