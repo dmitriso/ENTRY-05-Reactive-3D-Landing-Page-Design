@@ -1,17 +1,13 @@
-# Three.js Starter
+## ENTRY-05 of 100
+
+Reactive 3D Landing Page Design 
+
+## Author 
+Dmitri K. So
+
+## Description
+A Reactive 3D Landing Page Design using HTML, CSS, Javascript, GSAP, and THREEJS.
+
+### Three.js Starter
 Courtesy of Bruno Simon of https://threejs-journey.xyz/
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
-
-``` bash
-# Install dependencies (only the first time)
-npm install
-
-# Run the local server at localhost:8080
-npm run dev
-
-# Build for production in the dist/ directory
-npm run build
-```
