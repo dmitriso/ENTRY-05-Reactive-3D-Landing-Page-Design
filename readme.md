@@ -5,7 +5,7 @@ Reactive 3D Landing Page Design
 ## Description
 A Reactive 3D Landing Page Design using HTML, CSS, Javascript, GSAP, and THREEJS.
 
-https://user-images.githubusercontent.com/64864829/127236437-01c0f43e-4479-40b5-a9a8-ad3252943d43.mp4
+https://user-images.githubusercontent.com/64864829/127236691-777c8ed3-22b9-421c-ae4a-89b31d5e7c16.mp4
 
 ### Three.js Starter
 Courtesy of Bruno Simon of https://threejs-journey.xyz/
